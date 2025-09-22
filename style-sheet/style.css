@@ -93,3 +93,115 @@ ul a.link:hover {
   object-fit: cover;
   object-position: center;
 }
+
+.info-section {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.info-section p.link {
+  color: var(--background-color);
+  font-weight: 400;
+  text-align: center;
+}
+
+.info-head {
+  font-size: 36px;
+  color: var(--background-color);
+  font-weight: 900;
+  text-align: center;
+}
+
+.info-list {
+  display: flex;
+  justify-content: space-between;
+  width: 880px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.info-list li {
+  width: 170px;
+}
+
+.info-list div {
+  display: block;
+  width: 100%;
+  height: 170px;
+  border: 4px var(--button-cta-color) solid;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.info-list div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.quote-section {
+  background-color: var(--hero-secondary-text-color);
+  padding-block: 100px;
+}
+.quote-container {
+  width: 800px;
+  margin-inline: auto;
+}
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--background-color);
+  margin-bottom: 8px;
+}
+
+.quote-container span {
+  color: var(--background-color);
+  font-size: 28px;
+  font-weight: 600;
+  float: right;
+}
+
+.cta-section{
+  padding-block: 100px ;
+}
+.cta-container {
+  background-color: var(--button-cta-color);
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 180px;
+  margin-inline: auto;
+  border-radius: 12px;
+}
+
+.cta-container h3 {
+  font-size: 28px;
+  color: var(--hero-main-logo-text-color);
+}
+
+.cta-container p {
+  font-size: 16px;
+  color: var(--hero-main-logo-text-color);
+  font-weight: 400;
+}
+
+.cta-container a {
+  font-size: 18px;
+  color: var(--hero-main-logo-text-color);
+  border: 3px var(--hero-main-logo-text-color) solid;
+  padding: 8px 28px;
+  border-radius: 12px;
+}
+
+footer {
+  background-color: var(--background-color);
+  padding-block:40px ;
+}
+
+footer p {
+  font-size: 16px;
+  color: var(--hero-main-logo-text-color);
+  text-align: center;
+}
